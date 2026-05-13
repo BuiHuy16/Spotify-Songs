@@ -1,0 +1,1 @@
+link dataset: https://www.kaggle.com/datasets/umerhaddii/google-stock-data-2024

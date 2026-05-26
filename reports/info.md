@@ -1,1 +1,0 @@
-Nếu xuất biểu đồ ra file thì lưu vào thư mục reports/figures nhé (khi xong bài case study để nộp link github thì nhớ xóa file info.md này)

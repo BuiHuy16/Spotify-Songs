@@ -1,5 +1,21 @@
 ﻿# Spotify Hit Analysis 2023 🎧
 
+## Mục lục
+
+* [Tổng quan dự án](#tổng-quan-dự-án)
+* [Câu hỏi nghiên cứu](#câu-hỏi-nghiên-cứu)
+* [Tài nguyên dự án](#tài-nguyên-dự-án)
+* [Bộ dữ liệu](#bộ-dữ-liệu)
+* [Phương pháp nghiên cứu](#phương-pháp-nghiên-cứu)
+* [Kết quả chính](#kết-quả-chính)
+* [Kết luận](#kết-luận)
+* [Công nghệ sử dụng](#công-nghệ-sử-dụng)
+* [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+* [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt)
+* [Thành viên nhóm](#thành-viên-nhóm)
+* [Tài liệu tham khảo](#tài-liệu-tham-khảo)
+
+
 ## Tổng quan dự án
 
 Dự án nghiên cứu mối quan hệ giữa hai đặc tính âm nhạc phổ biến là **Danceability** (độ dễ nhảy) và **Energy** (mức độ sôi động) với mức độ thành công của bài hát trên Spotify, được đo bằng số lượt nghe (**Streams**).
@@ -9,6 +25,12 @@ Thông qua các phương pháp phân tích thống kê, kiểm định tương q
 > **Danceability và Energy có thực sự giúp một bài hát đạt nhiều lượt stream hơn trên Spotify hay không?**
 
 ---
+
+## Tài nguyên dự án
+
+- 📊 Slide thuyết trình: [Case Study Slide](reports/slides/Phân%20Tích%20Tác%20Động%20Danceability%20%26%20Energy%20đến%20Streams%202023.pdf)
+- 📓 Notebook chính: [main.ipynb](notebooks/main.ipynb)
+- 📁 Dataset đã xử lý: [cleaned_spotify_2023.csv](datasets/processed/cleaned_spotify_2023.csv)
 
 ## Câu hỏi nghiên cứu
 
@@ -124,7 +146,9 @@ Thay vì chỉ dựa vào các đặc tính âm nhạc.
 │   ├── hypothesis_testing.ipynb
 │   └── main.ipynb
 ├── reports/
-│   └── figures/
+│   ├── figures/
+│   └── slides/
+│       └── Phân Tích Tác Động Danceability & Energy đến Streams 2023.pdf  # slide
 └── venv_ds/  # Môi trường ảo Python cục bộ (nếu đã tạo)
 ```
 
